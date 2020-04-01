@@ -1,0 +1,21 @@
+* {margin:0; padding:0; box-sizing: border-box;}
+
+section,footer{width: 100%;max-width: 1024px; margin:0 auto; padding: 10px;} 
+img{width: 100%; display: block;}
+
+h1{text-align: center; color: #a87cbf
+}
+
+h3{font-style: italic; text-align: center; color: #cc9ce6
+}
+
+#second,#third{text-align: left; font-style: normal;
+}
+
+body{color: #702c94
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
