@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 body {
-	color: #702c94;
+	color: #3B1542;
 	font-family: 'Noto Sans', sans-serif;
 }
 p{
@@ -20,28 +20,29 @@ section, footer {
 img {
 	width: 100%;
 	display: block;
+	padding: 10px;
 }
 h1,h2,h3,h4,h5,h6 {
 	text-align: center;
-	color: #a87cbf; 
+	color: #3B1542; 
 	font-family: 'Noto Sans', sans-serif;
 }
 h3 {
 	font-style: normal;
 	text-align: center;
-	color: #cc9ce6
+	color: #3B1542;
 }
 ul {
 	text-align: center;
 	list-style-type: none;
 }
 header{
-	background-color: #FFED74;
+	background-color: #F6E5FE;
     border: 1px black solid;
     padding: 20px;
 }
 nav {
-    background-color: #E8C66A;
+    background-color: #A3D1FF;
     border: 1px black solid;
     padding: 20px;
 }
@@ -51,29 +52,25 @@ aside {
     padding: 20px;
 }
 article {
-    background-color: #E89C6C;
+    background-color: #A0CAE8;
     border: 1px black solid;
     padding: 20px;
     float: right;
     width: 350px;
 }
 footer {
-    background-color: #FF957E;
+    background-color: #D2ECFE;
     border: 1px black solid;
     padding: 20px;
 }
 div,section {
-    background-color: #FFE2B8;
+    background-color: #AEC7F5;
     border: 1px black solid;
     padding: 20px;
 }
 aside{
 	float: left;
 	width: 600px;
-	height: 432px;
-}
-img{
-	padding: 10px;
 }
 #nav a{
 	width: 33.33%;
@@ -92,18 +89,18 @@ img{
 	padding: 20px;
 }
 #left {
-	background-color: #E582A2;
+	background-color: #BB95E8;
 	border: 1px black solid;
 	padding: 20px;
 	float: left;
 	width: 50%;
 }
-#right p{
-	background-color: #E55B88;
+#right {
+	background-color: #FFE7FF;
 	border: 1px black solid;
 	padding: 10px;
 	float: right;
-	width: 60%;
+	width: 50%;
 }
 #about p, #skills p {
 	width:500px;
