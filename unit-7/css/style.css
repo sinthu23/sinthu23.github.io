@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	color: #3B1542;
+	font-family: 'Noto Sans', sans-serif;
+}
+p{
+	padding-top: 10px;
+	line-height: 1.25;
+}
+section, footer {
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px;
+}
+img {
+	width: 100%;
+	display: block;
+	padding: 10px;
+}
+h1,h2,h3,h4,h5,h6 {
+	text-align: center;
+	color: #3B1542; 
+	font-family: 'Noto Sans', sans-serif;
+}
+h3 {
+	font-style: normal;
+	text-align: center;
+	color: #3B1542;
+}
+ul {
+	text-align: center;
+	list-style-type: none;
+}
+header{
+	background-color: #F6E5FE;
+    border: 1px black solid;
+    padding: 20px;
+}
+nav {
+    background-color: #A3D1FF;
+    border: 1px black solid;
+    padding: 20px;
+}
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+article {
+    background-color: #A0CAE8;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 350px;
+}
+footer {
+    background-color: #D2ECFE;
+    border: 1px black solid;
+    padding: 20px;
+}
+div,section {
+    background-color: #AEC7F5;
+    border: 1px black solid;
+    padding: 20px;
+}
+aside{
+	float: left;
+	width: 600px;
+}
+#nav a{
+	width: 33.33%;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: block;
+	float: left;
+	text-align: center;
+}
+#second, #third { 
+	font-style: normal;
+}
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+#left {
+	background-color: #BB95E8;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 50%;
+}
+#right {
+	background-color: #FFE7FF;
+	border: 1px black solid;
+	padding: 10px;
+	float: right;
+	width: 50%;
+}
+#about p, #skills p {
+	width:500px;
+	margin:5px auto;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content:"";
+	clear: both;
+	height: 0;
+}
